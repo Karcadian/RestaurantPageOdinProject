@@ -7,19 +7,19 @@ function menu() {
             name: 'Iced Matcha Latte',
             description: 'Iced or hot, it is sure to be delicious!',
             price: '$4.50',
-            imgSrc: '../images/iced-matcha-latte.jpg',
+            imgSrc: './images/iced-matcha-latte.jpg',
         },
         {
             name: 'Matcha Cheesecake',
             description: 'Creamy and rich matcha-flavored cheesecake.',
             price: '$5.00',
-            imgSrc: '../images/matcha-cheesecake.jpeg',
+            imgSrc: './images/matcha-cheesecake.jpeg',
         },
         {
             name: 'Hot Matcha Tea',
             description: 'Traditional hot matcha tea for a soothing experience.',
             price: '$3.75',
-            imgSrc: '../images/hot-matcha-tea.jpeg',
+            imgSrc: './images/hot-matcha-tea.jpeg',
         },
     ];
 

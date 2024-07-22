@@ -9,7 +9,7 @@ function initialLoad() {
     description.textContent = 'Enjoy the finest matcha teas and treats in town.';
 
     const img = document.createElement('img');
-    img.src = '../images/iced-matcha-latte.jpg';
+    img.src = './images/iced-matcha-latte.jpg';
     img.alt = 'A beautiful cup of matcha tea';
 
     content.appendChild(welcomeMessage);
