@@ -1,3 +1,7 @@
+import icedMatchaLatte from './images/iced-matcha-latte.jpg';
+import matchaCheesecake from './images/matcha-cheesecake.jpeg';
+import hotMatchaTea from './images/hot-matcha-tea.jpeg';
+
 function menu() {
     const content = document.getElementById('content');
     content.innerHTML = ''; // Clear previous content
@@ -7,19 +11,19 @@ function menu() {
             name: 'Iced Matcha Latte',
             description: 'Iced or hot, it is sure to be delicious!',
             price: '$4.50',
-            imgSrc: './images/iced-matcha-latte.jpg',
+            imgSrc: icedMatchaLatte,
         },
         {
             name: 'Matcha Cheesecake',
             description: 'Creamy and rich matcha-flavored cheesecake.',
             price: '$5.00',
-            imgSrc: './images/matcha-cheesecake.jpeg',
+            imgSrc: matchaCheesecake,
         },
         {
             name: 'Hot Matcha Tea',
             description: 'Traditional hot matcha tea for a soothing experience.',
             price: '$3.75',
-            imgSrc: './images/hot-matcha-tea.jpeg',
+            imgSrc: hotMatchaTea,
         },
     ];
 
@@ -41,7 +45,7 @@ function menu() {
         itemDiv.appendChild(itemPrice);
 
         const itemImg = document.createElement('img');
-        itemImg.src = item.imgSrc;
+        itemImg.src = item.imgSrc; // Set the image source to the imported path
         itemImg.alt = item.name;
         itemImg.style.width = '300px'; // Resize image
         itemImg.style.height = 'auto'; // Maintain aspect ratio

@@ -1,3 +1,5 @@
+import icedMatchaLatte from './images/iced-matcha-latte.jpg';
+
 function initialLoad() {
     const content = document.getElementById('content');
     content.innerHTML = ''; // Clear previous content
@@ -9,7 +11,7 @@ function initialLoad() {
     description.textContent = 'Enjoy the finest matcha teas and treats in town.';
 
     const img = document.createElement('img');
-    img.src = './images/iced-matcha-latte.jpg';
+    img.src = icedMatchaLatte; 
     img.alt = 'A beautiful cup of matcha tea';
 
     content.appendChild(welcomeMessage);
